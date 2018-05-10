@@ -4,9 +4,9 @@ This is a simple project to show you how to use Docker ans Ruby on Rails
 
 * Install [Docker](https://docs.docker.com/install/)
 * Install [docker-compose](https://docs.docker.com/compose/install/)
-* Clone this repository `git clone https://github.com/leogomezzz/noteapp.git`
+* Clone this repository `git clone https://github.com/leogomezzz/docker_ruby.git`
 * Create this folder ../volumes/db_data with 777 permissions (it's not the best, but it'll work for now)
-`cd noteapp && mkdir -p ../volumes/db_data && chmod 777 -R ../volumes`
+`cd docker_ruby && mkdir -p ../volumes/db_data && chmod 777 -R ../volumes`
 * run `docker-compose up` on terminal
 
 * In other terminal, run `docker ps`, copy the ID of noteapp_web container and run `docker exec -it ID bash`, like `docker exec -it 2e532e8129ed bash`
